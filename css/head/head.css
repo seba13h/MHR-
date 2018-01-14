@@ -1,3 +1,11 @@
-.head{
-    background-color: blue;
+
+.navBar{
+    background-color: #000000!important;
+}
+.btn-navBar-buscar{
+    color: #0eebff !important;
+    border-color: #0eebff !important;
+}
+.link-navBar{
+    color: #0eebff !important;
 }
