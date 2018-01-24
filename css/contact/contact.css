@@ -1,0 +1,11 @@
+.div-information-contact-us{
+    text-align: center;
+    display: block;
+}
+.contact{
+    width: 50%;
+    color: white;
+    background-color: rgb(42, 42, 235);
+    margin: 2em 10%;
+    padding: 10px 20px
+}

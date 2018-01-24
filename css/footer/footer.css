@@ -165,21 +165,11 @@ a.myfooter .socialIcon:hover, .myfooter .socialHoverClass {
 .payments {
 	font-size: 1.5em;
 }
-/*  zooming class */
-
-
-.zoom:hover {
-     -webkit-transform: scale(1.4);
-     -moz-transform: scale(1.4);
-     -o-transform: scale(1.4);
- }
-.zoom {
-     -webkit-transform: scale(1);
-     /* Browser Variations: */
-
-     -moz-transform: scale(1);
-     -o-transform: scale(1);
-     -webkit-transition-duration: 0.3s;
-     -moz-transition-duration: 0.3s;
-     -o-transition-duration: 0.3s;
- }
+ .footerUl {
+    list-style-position: inside !important;
+    list-style-type: square;
+    font-size: 13px;
+}
+.text-center{
+	display: block !important;
+}

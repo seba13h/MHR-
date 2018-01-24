@@ -1,11 +1,18 @@
-
 .navBar{
-    background-color: #000000!important;
+    background-color: #b82424!important;
+    height: 20% !important;
 }
 .btn-navBar-buscar{
-    color: #0eebff !important;
-    border-color: #0eebff !important;
+    color: #f0f0f0 !important;
+    border-color: #f0f0f0 !important;
+}
+.btn-navBar-buscar:hover{
+    background-color: #994e4e!important;
 }
 .link-navBar{
-    color: #0eebff !important;
+    color: #f3f3f3 !important;
+}
+.navItem:hover{
+    background-color: #994e4e;
+    border-radius: 10%;
 }
