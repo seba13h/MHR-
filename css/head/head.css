@@ -1,18 +1,26 @@
-.navBar{
-    background-color: #b82424!important;
-    height: 20% !important;
+
+.a{
+    color: white !important;
 }
-.btn-navBar-buscar{
-    color: #f0f0f0 !important;
-    border-color: #f0f0f0 !important;
+.nav li:hover{
+    background-color: rgb(53, 97, 240);
+    border-radius: 15px;
 }
-.btn-navBar-buscar:hover{
-    background-color: #994e4e!important;
+
+.logo{
+    text-align: center;
+    margin: 10px;
+    background-color: #ffffff!important;
 }
-.link-navBar{
-    color: #f3f3f3 !important;
+header{
+    background-color: #ffffff!important;
 }
-.navItem:hover{
-    background-color: #994e4e;
-    border-radius: 10%;
+html{
+    background-color: #ffffff!important;
+}
+#img-nav {
+    margin-left: 6px !important;
+    margin: auto;
+    color: white;
+    font-size: 20px;
 }

@@ -1,11 +1,25 @@
 .div-information-contact-us{
-    text-align: center;
+    width: 50%;
+    padding: 6px;
+    background: #ebf8ff;
     display: block;
+    margin: 7px 3em;
+    border: black;
+    border-radius: 22px;
 }
 .contact{
-    width: 50%;
-    color: white;
-    background-color: rgb(42, 42, 235);
-    margin: 2em 10%;
-    padding: 10px 20px
+    width: 40%;
+    color: rgb(2, 2, 2);
+    opacity: .78;
+    margin: 5px 63%;
+    padding: 17px 20px;
+    border-radius: 15px
 }
+* body{
+     background-image: url("../../img/fondo-contact.jpg");
+     width: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
