@@ -1,9 +1,18 @@
 
 .myfooter {
-    padding: 30px  10px ;
-    background-color: #000000;
-    color: #dadc46;
+    padding: 10px  10px ;
+    background-color: #ffffff;
+    color: #007bff;
 }
 .text-center{
 	display: block !important;
+}
+.logo2{
+    margin: 10px;
+}
+#img-nav {
+    margin-left: 6px !important;
+    margin: auto;
+    font-size: 20px;
+    display: inline-block;
 }

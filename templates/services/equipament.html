@@ -3,6 +3,10 @@
 
 <HEAD>
     <TITLE>HRC Sevicio de Investigacion</TITLE>
+    <meta charset="UTF-8">
+    <meta name="description" content="servicios de investigacion privada y equipamiento de seguridad">
+    <meta name="keywords" content="investigacion,investigacion privada,equipamiento de seguridad, servicio de investigacion">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
     <!-- Link css -->
     <link rel="stylesheet" type="text/css" href="../../css/footer/footer.css" />
     <link rel="stylesheet" type="text/css" href="../../css/head/head.css" />
@@ -21,7 +25,7 @@
 
 <BODY>
     <header class="head">
-        <div class="logo"><img src="../../img/logo.jpg" width="180" height="180" class="d-inline-block align-top" alt=""></div>
+        <div class="logo"><img src="../../img/logo.jpg" width="180" height="180" class="d-inline-block align-top" id="logoimg"alt=""></div>
         <nav class="navbar navbar-dark bg-primary">
           <img src="../../img/mail.png" width="30" height="30" class="d-inline-block align-top" alt="" >
           <p  id="img-nav">info@seguridadprivadaintegral.cl</p>
@@ -30,13 +34,13 @@
                   <a class="nav-link active a" href="../index/indexPage.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link a" href="./../about/about.html">Quienes Somos?</a>
+                  <a class="nav-link a" href="./../about/about.html">Quienes Somos</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle a" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="./equipament.html">Equipo de Seguridad</a>
-                      <a class="dropdown-item" href="./services.html">Investigacion Privada</a>
+                      <a class="dropdown-item" href="./equipament.html"id="dropdown">Equipo de Seguridad</a>
+                      <a class="dropdown-item" href="./services.html"id="dropdown">Investigacion Privada</a>
                     </div>
                   </li>
                 <li class="nav-item">
@@ -49,11 +53,11 @@
     <div class="body">
     <div class="equipament">
         <img src="../../img/equipo.png" alt="...">
-        <div class="carousel-caption d-none d-md-block" id="cont-text">
+        <div class="carousel-caption d-md-block" id="cont-text">
           <h1>Equipamiento de Seguridad</h1>
           <p>...</p>
         </div>
-      <div class="card-deck">
+      <div class="card-deck" id="cont-card">
         <div class="card" id="card2">
           <img class="card-img-top" id="card-img" src="../../img/DOMOTICA.jpg" alt="Card image cap">
           <div class="card-body">

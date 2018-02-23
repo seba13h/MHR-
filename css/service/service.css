@@ -1,3 +1,12 @@
+section{
+    background-color: #d9e60f !important;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: #d9e60f !important;
+}
 .service-investigation{
     float: left;
     display: inline-block !important;
@@ -7,14 +16,14 @@
     list-style-type: square ;
 }
 .service-investigation ul li{
-    font-size: 1.5em;
-    margin-bottom: 2em;
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
 }
 .service ul{
   list-style-type: square ;
 }
 .service ul li{
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 2em;
 }
 .carousel2{
@@ -22,17 +31,17 @@
     height: 400px !important;
     display: inline-block;
     float: left;
-    margin: 4px 11em;
+    margin: 4px 6.5em;
 }
 .img-carousel{
     width: 100%;
     height: 400px;
 }
-.services h1{
+section h1{
     text-align: center;
     margin:  1.5em auto;
 }
-.service{
+section{
     display: inline-block;
     float: left;
     margin-right: 1em;
@@ -62,8 +71,10 @@
     height: 500px;
     margin: auto;
 }
-#cont-text{
-
+#cont-card{
+    width: 90%;
+    margin: auto;
+    padding: 0;
 }
 #cont-text h1{
     background-color:#3b3d41;

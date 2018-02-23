@@ -8,8 +8,10 @@
     $textoEmisor .= "Content-type: text/html; charset=UTF-8\r\n";
     $textoEmisor .= "From: Formulario creado por DarioBF - www.dariobf.com";
     $correoDestino = "sebastian.rodriguezb@sansano.usm.cl";
-    $asunto = "Contacto WEB_" . $nombre;
+    $asunto = "Contacto WEB" . $nombre . $email;
 
 mail( $correoDestino, $asunto, $mensaje);
+
 header("Location: ../templates/contact/contact.html");
+
 ?>

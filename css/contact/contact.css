@@ -9,17 +9,16 @@
 }
 .contact{
     width: 40%;
+    height: 600px;
     color: rgb(2, 2, 2);
     opacity: .78;
-    margin: 5px 63%;
-    padding: 17px 20px;
     border-radius: 15px
 }
-* body{
+.content-contact{
      background-image: url("../../img/fondo-contact.jpg");
      width: 100%;
+     position: sticky;
      background-size: cover;
      background-repeat: no-repeat;
-     background-attachment: fixed;
 }
 
